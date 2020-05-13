@@ -21,7 +21,7 @@ author: Hengsheng Liu
 title: Bitcoin
 email: hengshengl7714@hstat.org
 description: This is a Bitcoin website
-baseurl: freedom-project # the subpath of your site, e.g. /blog
+baseurl: "freedom-project" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
