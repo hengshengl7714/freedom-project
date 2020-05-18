@@ -1,0 +1,22 @@
+body{
+font-family: Merriweather, serif;
+}
+.title{
+margin-top: 50px;
+border: solid;
+}
+#node{
+width:200px;
+margin-top:10px;
+}
+#ledger{
+width:200px;
+margin-top:10px;
+}
+#b-vs-r{
+margin-top:20px;
+}
+#important{
+width:200px;
+margin-top:20px;
+}
