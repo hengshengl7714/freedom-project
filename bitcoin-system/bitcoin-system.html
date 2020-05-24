@@ -47,7 +47,7 @@ permalink: "The-Bitcoin-system.html"
                 </div>
               </div>
             </div>
-            <div >
+            <div>
                 <h2 id="b-vs-r">
                 Bitcoin VS. Reality
                 </h2>
@@ -90,6 +90,70 @@ permalink: "The-Bitcoin-system.html"
                       </ul>
                     </div>
                   </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="title">
+                HASH signature
+                </h2>
+                <p>
+                <i>HASH signature is a digital signature system that will always produce a fixed output</i>
+                </p>
+                     <div class="container title">
+                      <div class="row">
+                        <div class="col-6">
+                          <img src="/pictures/algorithm.png" alt = "algorithm" id="algorithm" >
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li>
+                                a cryptographic function that turns any lengths of input into a fixed size of the output.
+                                    <ul>
+                                        <li>
+                                Given output can’t backsolve for input (one-wayed function).
+                                        </li>
+                                        <li>
+                                Every input should have a unique output
+                                        </li>
+                                        <li>
+                                <p>A great website to try it out<a href = "https://passwordsgenerator.net/sha256-hash-generator/"> SHA-256 generator</a></p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                HASH collision
+                                </li>
+                                    <ul>
+                                        <li>
+                                        The output has a definite length, there might be inputs that have the same output
+                                        </li>
+                                    </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+            <h2 id="title">
+                Identity verification
+                </h2>
+                <p>
+                <i>How does Bitcoin vertify a client's identity?</i>
+                </p>
+                     <div class= "title">
+                    <p id ="id-paragraph">
+                    When registering for a Bitcoin wallet, it generates a unique but connected pair of keys, the public key, and the private key. The private key should be secret and nobody should know except the owner, but the public key is public for transactions. The private key is connected with the public key by SHA-256, which is one-way and people can't go back-solve it.
+                    </p>
+                    <ul>
+                        <li>
+                        Private key: encrypting the message
+                        </li>
+                        <li>
+                        Public key: decrypting the message
+                        </li>
+                    </ul>
+                    <img src="/pictures/graph.png" alt = "graph">
+                    </div>
                 </div>
             </div>
         </div>
