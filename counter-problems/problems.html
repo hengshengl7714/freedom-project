@@ -20,77 +20,68 @@ permalink: "Prevent-problems.html"
      <body>
         <div>
             <h2>
-            Bitcoin handling Problems
+            How to prevent counterfeit
             </h2>
             <p>
-            <i>Bitcoin has its own way handling problems</i>
+            <i>Bitcoin has its own way prevent counterfeit</i>
             </p>
             <div class="container">
                 <div  class="container title">
                   <div class="row">
-                    <div class="col-6">
-                    <img src="{{ site.baseurl}}/pictures/node.png" alt = "node" id="node" >
+                    <div class="col-6 size" >
+                    <img src="{{ site.baseurl}}/pictures/fork.png" alt = "fork" id="fork" >
+                    <img src="{{ site.baseurl}}/pictures/people.png" alt = "people" id="people" >
                     </div>
                     <div class="col-6">
                       <ul>
                         <li>
-                            The ledger is held by every peer which we called the “Node” in the Bitcoin network.
+                            In the Bitcoin system, counterfeit happens when a person trying to overwrite the record of the transaction
+                        </li>
+                        <li>
+                        <strong>Solution</strong>: Bitcoin protocol is peers only performing the longest blockchain.
                             <ul>
                                 <li>
-                                    A ledger is a record of all transactions
+                                When people are mining the blockchain, sometimes there might be a <b>fork</b> in the blockchain. The fork will stop when a peer solved the HASH function and add the transaction(block) to the Blockchain.
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            When a transaction happens, every node in the network will update its ledger and that’s how the system tracks your balance.
+                           After a new blockchain is connected to the chain, All the people realize that it's the longest chain and jump back to the mainchain.
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <div >
+                <div>
                     <h2 id="b-vs-r">
-                    Bitcoin VS. Reality
+                    51% Attack
                     </h2>
                     <p>
-                    <i
-                    >There is a differences of how Bitcoin handling the ledger compare to the real life.</i>
+                    <i>majority of people manipulating the system</i>
                     </p>
                     <div class="container title">
                       <div class="row">
                         <div class="col-6">
-                          <img src="{{ site.baseurl}}/pictures/ledger.png" alt = "ledger" id="ledger" >
-                          <img src="{{ site.baseurl}}/pictures/important.png" alt = "important-mark" id="important" >
+                          <img src="{{ site.baseurl}}/pictures/attack.png" alt = "attack" id="attack" >
                         </div>
                         <div class="col-6">
                           <ul>
                             <li>
-                                How does ledger handle in real life?
+                                A group of people that could manipulate the whole Bitcoin system if they're more powerful than the rest of their peers
                                 <ul>
                                     <li>
-                                         The ledger is always held by a trustworthy authority like a bank (Trust required).
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                How does Bitcoin handle the ledger?
-                                <ul>
-                                    <li>
-                                         The system is based on mathematical functions and protocols where no trust is required.
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                               How is it significant?
-                                <ul>
-                                    <li>
-                                         When a bank declares bankruptcy or problems happen to the bank, it is challenging to get your money back. Compared to the decentralized system like Bitcoin, everyone holds a ledger so your account is always somewhere in the system.
+                                         They could stay on the <b>shorter</b> chain and keep adding blocks to the shorter chain and <b>out compete</b> the longest chain.
                                     </li>
                                 </ul>
                             </li>
                           </ul>
                         </div>
                       </div>
+                      <p>
+                     The <b>older</b> the block is, it means the <b>more</b> blocks need to add to make it longer. the <b>newer</b> the block is, it means the <b>fewer</b> blocks need to add to make it longer. That means newer blocks are easier to overwritten compare to the older block.
+                      </p>
+                      <img src="{{ site.baseurl}}/pictures/51-attack-graph.png" alt = "51-attack-graph.png" id="51-attack-graph.png">
+                      <b><a href = "https://onezero.medium.com/how-does-the-blockchain-work-98c8cd01d2ae"> Source of the image </a></b>
                     </div>
                 </div>
             </div>
